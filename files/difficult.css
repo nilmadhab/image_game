@@ -1,0 +1,273 @@
+body{
+background:url("../images/back.png")  ;
+font-family:tahoma;
+}
+#wrapper{
+width:1000px;
+height:1000px;
+margin: 0 auto;
+padding:50px;
+background-color:;
+}
+.icon
+{
+position:absolute;
+top:10px;
+left:15px;
+background:url("../images/logo.png") ;
+width:150px;
+height:150px;
+border: 1px solid #3cafcf;
+border-radius: 30px;
+}
+.header{
+
+background:url("../images/header.png") ;
+width:500px;
+height:100px;
+border: 1px solid #3cafcf;
+border-radius: 30px;
+margin-left:250px;
+margin-bottom:50px;
+
+}
+#control{
+position:absolute;
+left:950px;
+top:100px;
+width:300px;
+height:820px;
+background-image:url("../images/control.png") ;
+padding: 20px 20px 20px;
+border: 1px solid #DD3B3B;
+border-radius: 9px;
+text-align:center;
+}
+table{
+background:url("../images/table.png")  ;
+width:608px;
+height:600px;
+}
+.part1
+{
+position:absolute;
+top:210px;
+left:175px;
+background:url("../images/katrina/1.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part2
+{
+position:absolute;
+top:210px;
+left:327px;
+background:url("../images/katrina/2.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part3
+{
+position:absolute;
+top:210px;
+left:479px;
+background:url("../images/katrina/3.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part4
+{
+position:absolute;
+top:210px;
+left:631px;
+background:url("../images/katrina/4.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part5
+{
+position:absolute;
+top:362px;
+left:175px;
+background:url("../images/katrina/5.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part6
+{
+position:absolute;
+top:362px;
+left:327px;
+background:url("../images/katrina/6.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part7
+{
+position:absolute;
+top:362px;
+left:479px;
+background:url("../images/katrina/7.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part8
+{
+position:absolute;
+top:362px;
+left:631px;
+background:url("../images/katrina/8.gif") ;
+width:152px;
+height:148px;
+
+}
+.part9
+{
+position:absolute;
+top:510px;
+left:175px;
+background:url("../images/katrina/9.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part10
+{
+position:absolute;
+top:510px;
+left:327px;
+background:url("../images/katrina/10.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part11
+{
+position:absolute;
+top:510px;
+left:479px;
+background:url("../images/katrina/11.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part12
+{
+position:absolute;
+top:510px;
+left:631px;
+background:url("../images/katrina/12.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part13
+{
+position:absolute;
+top:658px;
+left:175px;
+background:url("../images/katrina/13.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part14
+{
+position:absolute;
+top:658px;
+left:327px;
+background:url("../images/katrina/14.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part15
+{
+position:absolute;
+top:658px;
+left:479px;
+background:url("../images/katrina/15.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+.part16
+{
+position:absolute;
+top:658px;
+left:631px;
+background:url("../images/katrina/16.gif") ;
+width:152px;
+height:148px;
+display:none;
+}
+button  {
+cursor: pointer;
+background: linear-gradient(to bottom, rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+border: 1px solid #3cafcf;
+border-radius: 9px;
+padding: 10px 20px;
+font-size: 15px;
+color: white;
+display:none;
+margin:0 auto;
+}
+#start
+{
+cursor: pointer;
+width:100px;
+height:25px;
+background: linear-gradient(to bottom, rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+border: 1px solid #3cafcf;
+border-radius: 9px;
+padding: 10px 20px;
+margin: 0 auto;
+}
+#answer{
+height: 34px;
+position: relative;
+border-radius: 9px;
+bottom: 2px;
+background-color: rgb(73, 56, 197);;
+color: white;
+font-size: 17px;
+padding-left: 10px;
+border: 2px solid rgb(83, 109, 96);
+margin:10px;
+}
+#submit,#again{
+cursor: pointer;
+width:100px;
+height:40px;
+background: linear-gradient(to bottom, rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+border: 1px solid #3cafcf;
+border-radius: 9px;
+padding: 10px 20px;
+margin: 0 auto;
+display:block;
+}
+a
+{
+display:block;
+width:100px;
+height:40px;
+}
+a:link{
+text-decoration:none;
+}
+#copyright
+{
+background:url("../images/copyright.png") ;
+width:600px;
+height:100px;
+border: 1px solid #3cafcf;
+border-radius: 30px;
+margin-top:75px;
+}

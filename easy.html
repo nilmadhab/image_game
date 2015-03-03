@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//w3C//DTD XHTML 1.0 Transition//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transition.dtd">
+<html>
+<head>
+	<link rel="icon" type="image/ico" href="favicon.ico">
+   <link href="files/easy.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="files/jquery-1.2.6.min.js"></script>
+	 <script type="text/javascript" src="files/javaeasy.js"></script>
+	<title>NilGame</title>
+</head>
+<body>
+	<div id="wrapper">
+	<div class="icon">
+	</div>
+		<div class="header">
+		</div>
+		<div id="img">
+		<table border="1" cellpadding="0" cellspacing="0" class="game">
+			<tr>
+				<td class="game_area1"></td>
+				<td class="game_area2"></td>
+				<td class="game_area3"></td>
+			</tr>
+			<tr>
+				<td class="game_area4"></td>
+				<td class="game_area5"></td>
+				<td class="game_area6"></td>
+			</tr>
+			<tr>
+				<td class="game_area7"></td>
+				<td class="game_area8"></td>
+				<td class="game_area9"></td>
+			</tr>
+		</table>
+		</div>
+		<div id="control">
+		<h2>Navigation Bar</h2>
+		<p>Let's play the game and guess the picture<br>
+		Click the show buttons to unfold parts of the images</p>
+		<p id="start">Click Here</p>
+		<button id="show1" onClick="score(current_score)">Show Another</button><button id="show2"onClick="score(current_score)">Show Another</button>
+		<button id="show3"onClick="score(current_score)">Show Another</button>	<button id="show4"onClick="score(current_score)">Show Another</button>
+		<button id="show5"onClick="score(current_score)">Show Another</button><button id="show6"onClick="score(current_score)">Show Another</button>
+		<button id="show7"onClick="score(current_score)">Show Another</button><button id="show8"onClick="score(current_score)">Show Another</button>
+		<button id="show9"onClick="score(current_score)">Show Another</button>
+		<form name="result" action="" method="get">
+		Guess the picture :-<br>
+			<input id="answer" type="text" name="answer" value=""><br>
+			<input type="submit" name="button" value="Submit" onClick="myresult(this.form)">
+		</form>
+		<h3>Score card</h3>
+		Initial Score:100<br>
+		<p id="score">Current Score:-100</p>
+		
+		<p id="again"><a href="index.html">HOME</a></button>
+		</div>
+		<div id="copyright">
+		</div>
+	</div>
+	
+	
+</body>
+</html>

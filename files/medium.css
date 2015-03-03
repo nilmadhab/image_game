@@ -1,0 +1,236 @@
+body{
+background:url("../images/back.png")  ;
+font-family:tahoma;
+}
+#wrapper{
+width:1000px;
+height:1000px;
+margin: 0 auto;
+padding:50px;
+background-color:;
+}
+.icon
+{
+position:absolute;
+top:10px;
+left:15px;
+background:url("../images/logo.png") ;
+width:150px;
+height:150px;
+border: 1px solid #3cafcf;
+border-radius: 30px;
+}
+.header{
+
+background:url("../images/header.png") ;
+width:500px;
+height:100px;
+border: 1px solid #3cafcf;
+border-radius: 30px;
+margin-left:250px;
+
+}
+table{
+background:url("../images/table.png")  ;
+width:605px;
+height:700px;
+
+}
+
+.part1
+{
+position:absolute;
+top:160px;
+left:175px;
+background:url("../images/jackson/1.gif") ;
+width:150px;
+height:233px;
+display:none;
+}
+.part2
+{
+position:absolute;
+top:160px;
+left:325px;
+display:none;
+background:url("../images/jackson/2.gif") ;
+width:150px;
+height:233px;
+}
+.part3
+{
+position:absolute;
+top:160px;
+left:475px;
+background:url("../images/jackson/3.gif") ;
+width:150px;
+height:233px;
+display:none;
+}
+.part4
+{
+position:absolute;
+top:160px;
+left:625px;
+background:url("../images/jackson/4.gif") ;
+width:150px;
+display:none;
+height:233px;
+}
+.part5
+{
+position:absolute;
+top:393px;
+left:175px;
+background:url("../images/jackson/5.gif") ;
+width:150px;
+height:233px;
+
+}
+.part6
+{
+position:absolute;
+top:393px;
+left:325px;
+background:url("../images/jackson/6.gif") ;
+width:150px;
+height:233px;
+display:none;
+}
+.part7
+{
+position:absolute;
+top:393px;
+left:475px;
+background:url("../images/jackson/7.gif") ;
+width:150px;
+height:233px;
+display:none;
+}
+.part8
+{
+position:absolute;
+top:393px;
+left:625px;
+background:url("../images/jackson/8.gif") ;
+width:150px;
+height:233px;
+display:none;
+}
+.part9
+{
+position:absolute;
+top:626px;
+left:175px;
+background:url("../images/jackson/9.gif") ;
+width:150px;
+height:233px;
+display:none;
+}
+.part10
+{
+position:absolute;
+top:626px;
+left:325px;
+background:url("../images/jackson/10.gif") ;
+width:150px;
+height:233px;
+display:none;
+}
+.part11
+{
+position:absolute;
+top:626px;
+left:475px;
+background:url("../images/jackson/11.gif") ;
+width:150px;
+height:233px;
+display:none;
+}
+.part12
+{
+position:absolute;
+top:626px;
+left:625px;
+background:url("../images/jackson/12.gif");
+width:150px;
+height:233px;
+display:none;
+}
+#control{
+position:absolute;
+left:950px;
+top:100px;
+width:300px;
+height:820px;
+background-image:url("../images/control.png") ;
+padding: 20px 20px 20px;
+border: 1px solid #DD3B3B;
+border-radius: 9px;
+text-align:center;
+}
+
+button  {
+cursor: pointer;
+background: linear-gradient(to bottom, rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+border: 1px solid #3cafcf;
+border-radius: 9px;
+padding: 10px 20px;
+font-size: 15px;
+color: white;
+display:none;
+margin:0 auto;
+}
+#start
+{
+cursor: pointer;
+width:100px;
+height:25px;
+background: linear-gradient(to bottom, rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+border: 1px solid #3cafcf;
+border-radius: 9px;
+padding: 10px 20px;
+margin: 0 auto;
+}
+
+#answer{
+height: 34px;
+position: relative;
+border-radius: 9px;
+bottom: 2px;
+background-color: rgb(73, 56, 197);;
+color: white;
+font-size: 17px;
+padding-left: 10px;
+border: 2px solid rgb(83, 109, 96);
+margin:10px;
+}
+#submit,#again{
+cursor: pointer;
+width:100px;
+height:40px;
+background: linear-gradient(to bottom, rgba(153,216,244,1) 0%,rgba(79,183,236,1) 100%);
+border: 1px solid #3cafcf;
+border-radius: 9px;
+padding: 10px 20px;
+margin: 0 auto;
+display:block;
+}
+a
+{
+display:block;
+width:100px;
+height:40px;
+}
+a:link{
+text-decoration:none;
+}
+#copyright
+{
+background:url("../images/copyright.png") ;
+width:600px;
+height:100px;
+border: 1px solid #3cafcf;
+border-radius: 30px;
+margin-top:75px;
+}

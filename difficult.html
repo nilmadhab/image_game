@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//w3C//DTD XHTML 1.0 Transition//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transition.dtd">
+<html>
+<head>
+<link rel="icon" type="image/ico" href="favicon.ico">
+   <link href="files/difficult.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="files/jquery-1.2.6.min.js"></script>
+	 <script type="text/javascript" src="files/javadifficult.js"></script>
+	<title>NilGame</title>
+</head>
+<body>
+	<div id="wrapper">
+	<div class="icon">
+	</div>
+		<div class="header">
+	</div>
+		<div id="game">
+		<table border="1" cellpadding="0" cellspacing="0" class="game">
+			<tr>
+				<td class="part1"></td>
+				<td class="part2"></td>
+				<td class="part3"></td>
+				<td class="part4"></td>
+			</tr>
+			<tr>
+				<td class="part5"></td>
+				<td class="part6"></td>
+				<td class="part7"></td>
+				<td class="part8"></td>
+			</tr>
+			<tr>
+				<td class="part9"></td>
+				<td class="part10"></td>
+				<td class="part11"></td>
+				<td class="part12"></td>
+			</tr>
+
+			<tr>
+				<td class="part13"></td>
+				<td class="part14"></td>
+				<td class="part15"></td>
+				<td class="part16"></td>
+			</tr>
+		</table>
+		</div>
+		<div id="control">
+		<h2>Navigation Bar</h2>
+		<p>Let's play the game and guess the picture<br>
+		Click the show buttons to unfold parts of the images</p>
+		<p id="start">Click Here</p>
+		<button id="show1" onClick="score(current_score)">Show Another</button><button id="show2"onClick="score(current_score)">Show Another</button>
+		<button id="show3"onClick="score(current_score)">Show Another</button><button id="show4"onClick="score(current_score)">Show Another</button>
+		<button id="show5"onClick="score(current_score)">Show Another</button><button id="show6"onClick="score(current_score)">Show Another</button>
+		<button id="show7"onClick="score(current_score)">Show Another</button><button id="show8"onClick="score(current_score)">Show Another</button>
+		<button id="show9"onClick="score(current_score)">Show Another</button><button id="show10"onClick="score(current_score)">Show Another</button>
+		<button id="show11"onClick="score(current_score)">Show Another</button><button id="show12"onClick="score(current_score)">Show Another</button>
+		<button id="show13"onClick="score(current_score)">Show Another</button><button id="show14"onClick="score(current_score)">Show Another</button>
+		<button id="show15"onClick="score(current_score)">Show Another</button><button id="show16"onClick="score(current_score)">Show Another</button>
+		<form name="result" action="" method="get">
+		Guess the picture :-<br>
+			<input id="answer" type="text" name="answer" value=""><br>
+			<input type="submit" id="submit" name="button" value="Submit" onClick="myresult(this.form)">
+		</form>
+		<h3>Score card</h3>
+		Initial Score:160<br>
+		<p id="score">Current Score:-160</p>
+		<p id="again"><a href="index.html">HOME</a></button>
+		</div>
+				<div id="copyright">
+		</div>
+	</div>
+	
+	
+	
+</body>
+</html>
